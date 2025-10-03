@@ -1,0 +1,96 @@
+Category,One-Liner (Code Effeciency)
+Data Engineering,"from sqlalchemy import create_engine; engine=create_engine('postgresql://user:pw@localhost/db'); df.to_sql('table',engine)  # Save DF to SQL"
+Data Engineering,import requests; data=requests.get('https://api.github.com').json()  # API call
+Data Engineering,import os; files=os.listdir('.')  # List files
+Data Engineering,import datetime; now=datetime.datetime.now().strftime('%Y-%m-%d')  # Current date
+Data Engineering,"df['col'].fillna(0, inplace=True)  # Fill missing values in pandas"
+Data Handling / Pandas,import pandas as pd; df=pd.read_csv('data.csv')  # Read CSV
+Data Handling / Pandas,df.describe()  # Summary stats
+Data Handling / Pandas,df.fillna(0)  # Fill missing values
+Data Handling / Pandas,df[df['col']>10]  # Filter rows
+Data Handling / Pandas,df.groupby('col').sum()  # Group & aggregate
+Datetime / OS / Utilities,import datetime; datetime.datetime.now()  # Current date/time
+Datetime / OS / Utilities,datetime.datetime.now().strftime('%Y-%m-%d')  # Format timestamp
+Datetime / OS / Utilities,import os; os.listdir('.')  # List files
+Datetime / OS / Utilities,import os; os.path.exists('file.txt')  # Check existence
+Datetime / OS / Utilities,"import random; random.randint(1,10)  # Random number"
+Dictionaries,{x:x**2 for x in range(5)}  # Dict comprehension
+Dictionaries,"{v:k for k,v in {'a':1,'b':2}.items()}  # Invert dict"
+Dictionaries,"{**{'a':1}, **{'b':2}}  # Merge dicts"
+Dictionaries,"val = {'a':1}.get('b',0)  # Default value with get()"
+Dictionaries,from collections import Counter; Counter('supplychain')  # Frequency count
+Dicts & Sets,squares = {x:x**2 for x in range(5)}  # Dict comprehension
+Dicts & Sets,from collections import Counter; counts = Counter('supplychain')  # Frequency count
+Dicts & Sets,"inverted = {v:k for k,v in {'a':1,'b':2}.items()}  # Invert dict"
+Dicts & Sets,set1 & set2  # Set intersection
+Dicts & Sets,set1 | set2  # Set union
+Exceptions,"try:1/0
+except:print('error')  # Try/except one-liner"
+Exceptions,raise ValueError('bad input')  # Raise exception
+Exceptions,"assert x>0, 'x must be positive'  # Assertion"
+File & Data Handling,data = open('file.txt').read()  # Read file
+File & Data Handling,with open('file.txt') as f: data = f.read()  # Context manager
+File & Data Handling,import csv; rows = list(csv.DictReader(open('file.csv')))  # CSV to list of dicts
+File & Data Handling,import json; data = json.load(open('data.json'))  # Load JSON
+File & Data Handling,import pandas as pd; df = pd.read_csv('data.csv'); df.describe()  # Pandas stats
+Files & I/O,open('file.txt').read()  # Read file
+Files & I/O,"open('file.txt','w').write('hello')  # Write file"
+Files & I/O,import csv; list(csv.DictReader(open('file.csv')))  # Read CSV
+Files & I/O,import json; json.load(open('data.json'))  # Load JSON
+Files & I/O,with open('file.txt') as f: data=f.read()  # Context manager
+Functional Programming,(lambda x: x**2)(5)  # Lambda
+Functional Programming,"list(map(lambda x:x**2, range(5)))  # Map"
+Functional Programming,"list(filter(lambda x:x%2==0, range(10)))  # Filter"
+Functional Programming,"from functools import reduce; reduce(lambda x,y:x+y,[1,2,3,4])  # Reduce"
+Functional Programming,"all(x>0 for x in [1,2,3])  # All positive check"
+Functional Tricks,"list(map(lambda x:x**2, range(5)))  # Map with lambda"
+Functional Tricks,"list(filter(lambda x:x%2==0, range(10)))  # Filter evens"
+Functional Tricks,"from functools import reduce; reduce(lambda x,y:x+y,[1,2,3,4])  # Reduce sum"
+Functional Tricks,"sorted([('a',3),('b',1)], key=lambda x:x[1])  # Sort by second element"
+Functional Tricks,"any(x<0 for x in [1,2,3])  # Any negative check"
+Iteration & Built-ins,"list(enumerate(['a','b','c']))  # Enumerate"
+Iteration & Built-ins,"list(zip([1,2],[3,4]))  # Zip"
+Iteration & Built-ins,"sorted([3,1,2])  # Sorted list"
+Iteration & Built-ins,"list(reversed([1,2,3]))  # Reverse list"
+Iteration & Built-ins,list(range(5))  # Range
+Lists,squares = [x**2 for x in range(10)]  # List comprehension
+Lists,"flat = [item for sub in [[1,2],[3,4]] for item in sub]  # Flatten list"
+Lists,slice_step = nums[::2]  # Slice with step
+Lists,"unique_order = list(dict.fromkeys([1,2,2,3]))  # Unique preserve order"
+Lists,idx_max = nums.index(max(nums))  # Index of max value
+Lists,evens = [x for x in range(20) if x % 2 == 0]  # Even numbers
+Lists,"unique = list(set([1,2,2,3]))  # Unique values"
+Lists,nums = [x for x in range(10) if x%2]  # Odd numbers
+Math & Logic,status = 'Adult' if age >= 18 else 'Minor'  # Ternary conditional
+Math & Logic,"x, y = y, x  # Swap variables"
+Math & Logic,import math; fact = math.factorial(5)  # Factorial
+Math & Logic,"sum_ = sum([1,2,3,4,5])  # Sum of list"
+Math & Logic,"max_val = max([3, 7, 2, 5])  # Max value"
+Sets,"{1,2,3} & {2,3,4}  # Intersection"
+Sets,"{1,2,3} | {3,4,5}  # Union"
+Sets,"{1,2,3} ^ {2,3,4}  # Symmetric difference"
+Sets,{x for x in range(10) if x%2==0}  # Set comprehension
+Sets,"list(set([1,2,2,3]))  # Remove duplicates from list"
+Strings,rev = s[::-1]  # Reverse string
+Strings,is_palindrome = s == s[::-1]  # Palindrome check
+Strings,"'-'.join(['supply','chain','data'])  # Join words"
+Strings,"parts = 'a,b,c'.split(',')  # Split string"
+Strings,f'Hello {name}!'  # f-string formatting
+Strings,count_a = s.count('a')  # Count substrings
+Strings,"' '.join(['Supply','Chain','Data'])  # Join words"
+Strings,s == s[::-1]  # Palindrome check
+Strings,s.lower()  # Lowercase string
+Strings,s.upper()  # Uppercase string
+Tuples,"a, b, c = (1,2,3)  # Tuple unpacking"
+Tuples,"x, y = (y, x)  # Swap using tuple"
+Tuples,"list(enumerate(['a','b']))  # Enumerate one-liner"
+Tuples,"list(zip([1,2],[3,4]))  # Zip two lists into tuple pairs"
+Tuples,"from collections import namedtuple; Point=namedtuple('Point','x y'); p=Point(1,2)"
+Variables & Math,status = 'Adult' if age >= 18 else 'Minor'  # Ternary conditional
+Variables & Math,"x, y = y, x  # Swap variables"
+Variables & Math,"sum_val = sum([1,2,3,4,5])  # Sum list"
+Variables & Math,"max_val = max([3,7,2,5])  # Max value"
+Variables & Math,"z = complex(2,3)  # Complex number"
+Data Engineering,import os; files=os.listdir('.')  # List files
+Data Engineering,import datetime; now=datetime.datetime.now().strftime('%Y-%m-%d')  # Current date
+Data Engineering,"df['col'].fillna(0, inplace=True)  # Fill missing values in pandas"
