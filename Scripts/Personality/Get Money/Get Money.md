@@ -38,6 +38,7 @@ python Get_Money.py
 
 ---
 **🎯 Key Takeaway**
+
 This project is not about complex features.
 
 It’s about intentionality, mindset, and consistency. A simple reminder that, wherever you stand:
