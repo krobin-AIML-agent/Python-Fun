@@ -1,4 +1,4 @@
-# Python Playbooks 📘  
+# Python Playbooks 📘 
 
 This repository contains my **Python playbooks** — step-by-step resources designed to guide execution, bridge fundamentals to advanced concepts, and ensure repeatability in real-world projects.  
 
