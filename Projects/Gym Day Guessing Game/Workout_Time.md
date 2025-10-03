@@ -2,7 +2,7 @@
 
 A fun Python command-line game where you try to guess the workout of the day — leg day, chest day, arm day, or back day.
 
----
+--- 
 
 **📂 File:** `Gym_Guessing_Game.py` 
 
