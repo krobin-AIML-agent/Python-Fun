@@ -1,12 +1,12 @@
-# Python Playbooks 📘 
+# Python Playbooks
 
-This repository contains my **Python playbooks** — step-by-step resources designed to guide execution, bridge fundamentals to advanced concepts, and ensure repeatability in real-world projects.  
+This repository contains my **Python playbooks**: step-by-step resources designed to guide execution, bridge fundamentals to advanced concepts, and ensure repeatability in real-world projects.  
 
 Unlike static references, these are **action-oriented guides**: structured workflows and deeper explorations into higher-order Python skills.  
 
 ---
 
-## 📂 Repository Structure  
+## Repository Structure  
 
 ### 1. Data Analyst Line Item (Micro-Steps).xlsx  
 A structured **checklist and workflow map** for common data analyst tasks.  
@@ -44,7 +44,7 @@ A Jupyter Notebook dedicated to **bridging beginner → intermediate → advance
 
 ---
 
-## 🎯 Purpose  
+## Purpose  
 
 These playbooks serve as:  
 - **Guided frameworks** for structured execution.  
@@ -53,14 +53,14 @@ These playbooks serve as:
 
 ---
 
-## 🔑 How to Use  
+## How to Use  
 
 - Open **Data Analyst Line Item (Micro-Steps).xlsx** → for structured, step-by-step workflows.  
 - Run **Key Advanced Topics.ipynb** → for advanced learning and applied examples.  
 
 ---
 
-## 🚀 Who Will Benefit  
+## Who Will Benefit  
 
 - **Self-learners** → needing structured roadmaps to learn and apply Python.  
 - **Data analysts/scientists** → following repeatable workflows for analysis.  
@@ -69,4 +69,4 @@ These playbooks serve as:
 
 ---
 
-⚡ *This repo focuses on **execution playbooks** — not just “what Python is,” but **how to use it effectively in practice.***
+*This repo focuses on **execution playbooks**: not just “what Python is,” but **how to use it effectively in practice.***
