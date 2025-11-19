@@ -1,15 +1,15 @@
-# 🧮 Memory Converter Project
+# Memory Converter Project
 
 A Python tool and Jupyter notebook designed to **convert between memory units** (bits, bytes, KB, MB, GB, TB) with precision. It demonstrates **unit handling, abstraction, and conversion pipelines** while serving as a practical reference for computing fundamentals.
 
 ---
 
-**📌 Project Overview**  
+** Project Overview**  
 The project simplifies working with digital storage units. It allows the user to input a value and unit, then automatically outputs equivalent values across all other units.  
 
 ---
 
-**📝 Code Walkthrough**  
+** Code Walkthrough**  
 - **Unit Definitions** →  
   - `b` = bit (smallest unit)  
   - `B` = byte (8 bits)  
@@ -27,7 +27,7 @@ print(memory_converter(1, "B"))
 
 ---
 
-**⚡Purpose**  
+** Purpose**  
 
 Reinforces core computing fundamentals (bits vs bytes).
 
@@ -36,7 +36,7 @@ Useful as a reference utility when working with data sizes.
 Demonstrates how to design clean, reusable functions in Python.
 
 ---
-**🚀 How to Run**
+**How to Run**
 
 Clone the repo:
 
@@ -50,5 +50,5 @@ python memory_converter.py
 
 ---
 
-**🎯Key Takeaway**
+** Key Takeaway**
 This project shows how small Python utilities can double as learning aids and workflow accelerators. By encoding simple conversions into reusable functions, you remove repetitive work and build stronger intuition for computing systems.
