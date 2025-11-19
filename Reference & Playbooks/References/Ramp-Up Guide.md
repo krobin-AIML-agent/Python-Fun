@@ -1,4 +1,4 @@
-# Python Reference Toolkit 📘  
+# Python Reference Toolkit 
 
 This repository is my **personal Python reference library**, created to bring structure, speed, and clarity to how I work with Python in data analysis, process improvement, and problem solving.  
 
@@ -11,7 +11,7 @@ Together, these resources act as a **training aid, workflow accelerator, and cod
 
 ---
 
-## 📂 Repository Structure  
+## Repository Structure  
 
 ### 1. Python Dictionary.xlsx (Reference)  
 A structured **dictionary of Python commands, functions, and terminology.**  
@@ -63,7 +63,7 @@ A **Jupyter Notebook “function encyclopedia”** containing **runnable Python 
 
 ---
 
-## 🎯 Purpose  
+## Purpose  
 
 This toolkit acts as:  
 - A **personal memory bank** for Python syntax and mental models.  
@@ -72,7 +72,7 @@ This toolkit acts as:
 
 ---
 
-## 🔑 How to Use  
+## How to Use  
 
 - For **quick recall** → open **Python Dictionary.xlsx**  
 - For **efficient coding** → check **Python Master One Liners.csv**  
@@ -80,13 +80,10 @@ This toolkit acts as:
 
 ---
 
-## 🚀 Who Will Benefit  
+## Who Will Benefit  
 
 - **Self-learners** → needing structured references to build confidence.  
 - **Data analysts/scientists** → working with pandas, NumPy, or SQL integrations.  
 - **Developers** → who want **clean shortcuts** for faster coding.  
 - **Anyone learning Python** → looking for applied, not abstract, examples.  
 
----
-
-⚡ *This repo is not about theory — it’s about **execution speed + recall efficiency.***  
